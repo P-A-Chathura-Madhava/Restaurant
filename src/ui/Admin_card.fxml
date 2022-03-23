@@ -19,8 +19,8 @@
             <Font name="System Bold" size="26.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="tf_card_no" layoutX="106.0" layoutY="556.0" prefHeight="27.0" prefWidth="414.0" promptText="Card No" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="550.0" />
-      <JFXTextField fx:id="tf_pin" layoutX="508.0" layoutY="556.0" prefHeight="27.0" prefWidth="414.0" promptText="PIN Number" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="550.0" />
+      <JFXTextField fx:id="tf_card_no" style="-fx-prompt-text-fill:  #000000" layoutX="106.0" layoutY="556.0" prefHeight="27.0" prefWidth="414.0" promptText="Card No" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="550.0" />
+      <JFXTextField fx:id="tf_pin" style="-fx-prompt-text-fill:  #000000" layoutX="508.0" layoutY="556.0" prefHeight="27.0" prefWidth="414.0" promptText="PIN Number" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="550.0" />
       <AnchorPane layoutX="14.0" layoutY="577.0" prefHeight="40.0" prefWidth="1320.0" style="-fx-background-color: #2262c6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
             <JFXButton fx:id="bt_new" layoutX="27.0" onAction="#onNewAction" prefHeight="40.0" prefWidth="440.0" styleClass="button1" stylesheets="@../css/Buttons.css" text="New" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">

@@ -24,7 +24,6 @@
 }
 .btnDelete{
     -fx-background-color:  #E6EDEF;
-    -fx-border-color: #c0392b;
     -fx-text-fill: #c0392b;
 }
 .btnDelete :hover{
